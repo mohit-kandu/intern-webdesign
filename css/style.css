@@ -30,7 +30,6 @@ body {
   letter-spacing: 1.5px;
   line-height: 1.5em;
 }
-
 .sign-up input {
   background-color: #ff5500;
   margin-top: 60px;
@@ -73,4 +72,52 @@ body {
     height: 30px;
     width: 110px;
   }
+}
+
+.module6{
+	margin: 0px;
+	padding:40px;
+	background-color:white;
+	
+}
+
+
+.section-header{
+	font-family: Arial black, Helvetica;
+	font-style:normal;
+	font-weight:15px;
+	font-size:medium;
+   text-align: center;
+   padding-bottom: 10%;
+   
+}
+
+img{
+	
+	align: left;
+	padding:5px;
+	border-radius: 50%;
+	width:90px;
+	margin-left: 80px;
+	margin-right: 20px;
+}
+
+#module61 .box{
+	padding:40px;
+	padding-left: 30px;
+	position:relative;
+	overflow: hidden;
+	border-radius: 17px;
+	margin: 0 10px 40px 10px;
+	background: #fff;
+	box-shadow: 0 35px 35px 0 rgba(9, 11, 15, 0.1);
+	font-family:sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size:larger;
+	text-align: center;
+}
+.box p{
+	text-align: left;
+
 }
