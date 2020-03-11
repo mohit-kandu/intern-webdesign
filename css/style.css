@@ -1,5 +1,76 @@
-html,body {
-	margin: 0;
-	padding: 0;
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.first-div {
+  float: left;
+  width: 150px;
+  height: 10px;
+}
+.first-div img {
+  margin: 0 auto;
+  padding-top: 0;
+}
+.second-div {
+  float: right;
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  padding-right: 100px;
+  padding-top: 45px;
+  font-size: 15px;
+}
+.second-div h1 {
+  font-size: 2em;
+  letter-spacing: 2px;
+  line-height: 1.5em;
+}
+.second-div p {
+  letter-spacing: 1.5px;
+  line-height: 1.5em;
 }
 
+.sign-up input {
+  background-color: #ff5500;
+  margin-top: 60px;
+  color: #ffffff;
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+  border: none;
+}
+@media only screen and (max-width: 768px) {
+  .second-div h1 {
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    line-height: 1.2em;
+  }
+  .second-div p {
+    letter-spacing: 1.2px;
+    line-height: 1.2em;
+  }
+  sign-up input {
+    margin-top: 70px;
+    height: 40px;
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .second-div h1 {
+    font-size: 1em;
+    letter-spacing: 1px;
+    line-height: 1em;
+  }
+  .second-div p {
+    letter-spacing: 1px;
+    line-height: 1em;
+    color: #8c8c8c;
+  }
+  sign-up input {
+    margin-top: 80px;
+    height: 30px;
+    width: 110px;
+  }
+}
